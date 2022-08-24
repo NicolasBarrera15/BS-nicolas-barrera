@@ -15,7 +15,9 @@
     <header>
         <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
             <div class="container-fluid">
-                <img class="logo" src="https://i.pinimg.com/236x/50/cd/08/50cd0869744ca0e6959fe70539cf057d.jpg" alt="logo saxo">
+                <a href="../index.html"><img class="logo"
+                        src="https://i.pinimg.com/236x/50/cd/08/50cd0869744ca0e6959fe70539cf057d.jpg"
+                        alt="logo saxo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -33,17 +35,50 @@
                             <a class="nav-link" href="./productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
+                            <a class="nav-link" href="./faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+
                 </div>
             </div>
         </nav>
     </header>
+
+    <!-- Carousel -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdcjABfRFplv26_pGfgjZdnAzcI_lzGe9g3g&usqp=CAU"
+                    class="d-block w-100 altura" alt="Saxo azul">
+            </div>
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSVYiqhDpWm-U-nM6_3m2EIfu2M0CGTyvm8g&usqp=CAU"
+                    class="d-block w-100 altura" alt="saxo dorado">
+            </div>
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd1VuWK31JiB6UZrUfC4X-Cm90fmZoUOwTeQ&usqp=CAU"
+                    class="d-block w-100 altura" alt="saxo plata">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.espectaculosbcn.com/wp-content/uploads/2020/05/saxofonistas-famosos-1-1.png"
+                    class="d-block w-100 altura" alt="saxo ">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Cards -->
     <h1>Productos</h1>
     <h3>Saxofones Altos</h3>
     <div class="container text-center">
@@ -84,7 +119,7 @@
                     </div>
                 </div>
             </div>
-             
+
         </div>
     </div>
     <h3>Saxofones Tenores</h3>
@@ -116,8 +151,8 @@
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://www.falymusic.com/images/thumbnails/213/213/detailed/1/TS-100L.jpg" class="card-img-top"
-                        alt="saxo6">
+                    <img src="https://www.falymusic.com/images/thumbnails/213/213/detailed/1/TS-100L.jpg"
+                        class="card-img-top" alt="saxo6">
                     <div class="card-body">
                         <h5 class="card-title">Saxo Tenor Synphonic</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -126,7 +161,7 @@
                     </div>
                 </div>
             </div>
-             
+
         </div>
     </div>
     <h3>Saxofones Baritonos</h3>
@@ -158,8 +193,8 @@
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://www.falymusic.com/images/thumbnails/213/213/detailed/24/jbs1000_1_hr_opt_vipe-ug.jpg" class="card-img-top"
-                        alt="saxo9">
+                    <img src="https://www.falymusic.com/images/thumbnails/213/213/detailed/24/jbs1000_1_hr_opt_vipe-ug.jpg"
+                        class="card-img-top" alt="saxo9">
                     <div class="card-body">
                         <h5 class="card-title">Otro Saxo Baritono</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -168,9 +203,14 @@
                     </div>
                 </div>
             </div>
-             
+
         </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="copyright">Na Brissa Sax 2022 &copy;</p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"

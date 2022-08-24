@@ -3,26 +3,54 @@
     padding: 0%;
     margin: 0%
 }
-body{
+
+body {
     background-color: rgb(81, 85, 85);
 }
-.logo{
+
+.logo {
     width: 70px;
 }
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(11, 6, 98);
     margin: 15px;
 }
-h1:hover{
+
+h1:hover {
     color: rgb(56, 18, 226);
     font-weight: bold;
     text-decoration: underline;
     transition: 0.5s;
     transform: skew(-20deg);
 }
-h3{
+
+h3 {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(79, 5, 106);
     margin: 15px;
+}
+
+.acordion {
+
+    background-color: rgb(135, 182, 203) !important;
+}
+
+.acordion-header {
+
+    background-color: rgb(122, 160, 178) !important;
+    
+}
+
+.altura{
+    height: 20rem !important;
+}
+
+.footer{
+    background-color: rgb(35, 33, 33);
+    height: 97px;
+}
+.copyright{
+    color: aliceblue;
 }
